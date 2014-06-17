@@ -5,6 +5,136 @@
 /* add class information later for first exercise (see reference book)*/
 
 
+/* first table formatting here */
+table.table1 {
+	border-collapse: collapse;
+	border-bottom: none;
+	border-top: none;
+	width:  100%;
+}
+table.table1 td {
+	border-top: 1px solid gray;
+	padding: 5px;
+}
+
+table.table1 tr:first-child td {
+	border-top: none;
+}
+
+/* second table formatting here */
+table.table2 {
+	border-collapse: collapse;
+	width: 100%;
+	border: none;
+}
+
+table.table2 td{
+	border-top: 1px solid gray;
+	padding: 5px;
+}
+
+table.table2 th{
+	padding: 5px;
+/*	left: 1px;*/
+}
+
+/*3rd table - stats formatting here*/
+
+table.stats {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray;
+	width:  30%;
+}
+
+
+table.stats .label {
+	font-size: 22px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+table.stats .content {
+	font-size: 12px;
+	color: gray;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+/*formatting for bar chart*/
+.bar {
+	background-color: #989898;
+}
+	
+table.barchart {
+	width: 100%;
+}
+
+table.barchart th {
+	width: 12%;
+}
+
+
+/*formatting for the box and text*/
+
+.outer_container {
+	padding: 15%;
+	background-color: gray;
+}
+
+.inner_container {
+	padding: 5%;
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+}
+
+.button {
+	background-color: red;
+	color: white;
+	padding: 5px;
+	width: 60px;
+	position: absolute;
+	right: 25px;
+	bottom: 10px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: green;
+}
+
+
+/*formatting for media blocks*/
+.media_block {
+	float: left;
+	padding-right: 5px;
+}
+
+.media_body {
+	overflow: hidden;
+}
+
+
+/* to box size entire file */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+
 
 
 
